@@ -1,72 +1,237 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <title>HTML predavanje</title>
 
-    <head>
-        <title>HTML predavanje</title>
-       
-        <meta charset="utf-8" />
-        <meta name="description" content="Tečaj web programiranja" />
-        <meta name="author" content="Osvit" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.00" />
+    <meta charset="utf-8" />
+    <meta name="description" content="Tečaj web programiranja" />
+    <meta name="author" content="Osvit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.00" />
+  </head>
 
+  <body>
+    <header>
+      <div>LOGO</div>
+      <img
+        src="https://media0.giphy.com/media/Axqr1hNEmGJiw/giphy.gif?cid=3640f6095c5e9c0c7877792f49702e77"
+        alt="slika"
+        height="100px"
+        width="300px"
+      />
+      <nav>
+        <ul>
+          <li><a href="#">Početna</a></li>
+          <li><a href="#">Galerija</a></li>
+          <li><a href="#">Kontakt</a></li>
+          <li>
+            <a href="https://www.w3schools.com/html/html_intro.asp"
+              >HTML Tutorial</a
+            >
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/css/default.asp">CSS Tutorial</a>
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/js/default.asp"
+              >JavaScript Tutorial</a
+            >
+          </li>
+          <br />
+          <button>Click me</button>
+        </ul>
+      </nav>
 
-    </head>
+      <table align="center" ; border="10px">
+        <thead>
+          <tr>
+            <th colspan="2"></th>
+            <th>Name</th>
+            <th>Mass</th>
+            <th>Diameter</th>
+            <th>Density</th>
+            <th>Gravity</th>
+            <th>Lenght of day</th>
+            <th>Distance from Sun</th>
+            <th>Mean temperature</th>
+            <th>Number of moons</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="4">Jovian Planets</td>
+            <td rowspan="2">Gas Giants</td>
+            <td>Jupiter</td>
+            <td>1898</td>
+            <td>142,984</td>
+            <td>1326</td>
+            <td>23.1</td>
+            <td>9.9</td>
+            <td>778.6</td>
+            <td>-110</td>
+            <td>67</td>
+            <td>The largest planet</td>
+          </tr>
+          <tr>
+            <td>Saturn</td>
+            <td>568</td>
+            <td>120,536</td>
+            <td>687</td>
+            <td>9.0</td>
+            <td>10.7</td>
+            <td>1433.5</td>
+            <td>-140</td>
+            <td>62</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td rowspan="2">Ice Giants</td>
+            <td>Uranus</td>
+            <td>86.8</td>
+            <td>51,118</td>
+            <td>1271</td>
+            <td>8.7</td>
+            <td>17.2</td>
+            <td>2872.5</td>
+            <td>-195</td>
+            <td>27</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Neptune</td>
+            <td>102</td>
+            <td>49,528</td>
+            <td>1638</td>
+            <td>11.0</td>
+            <td>16.1</td>
+            <td>4495.1</td>
+            <td>-200</td>
+            <td>14</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </header>
+    <main>
+      <section>
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <h6>h6</h6>
+      </section>
+      <section>
+        <p>prvi paragraf</p>
+        <p>ovo je drugi paragraf</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eaque
+          libero ab, aliquam molestiae et eius aut cumque nesciunt provident
+          quae quisquam! Pariatur nesciunt, dicta obcaecati accusamus deserunt
+          sunt unde?
+        </p>
+      </section>
+      <section>
+        <ol>
+          <li>Jedan</li>
+          <li>Dva</li>
+          <li>Tri</li>
+        </ol>
+      </section>
+      <img
+        src="https://static.igre123.net/slike/318893-206368/slika-206368.jpg"
+        alt="slika"
+        height="200px"
+      />
+      <img
+        src="https://media1.giphy.com/media/YGOqigNcjRG8w/giphy.gif?cid=3640f6095c5e922e656936437783b332"
+        alt="gif"
+        height="200px"
+      />
+      <img
+        src="https://media3.giphy.com/media/VekcnHOwOI5So/giphy.gif?cid=3640f6095c5e98eb4d71544b4950b74c"
+        alt="gif"
+        height="200px"
+      />
+      <section>
+        <label for="name">Ime:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          minlength="1"
+          maxlength="30"
+          size="20"
+        />
+        <br />
+        <label for="name">Prezime:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          minlength="1"
+          maxlength="30"
+          size="20"
+        />
+        <br />
+        <label for="name">Email:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          minlength="1"
+          maxlength="30"
+          size="20"
+        />
+        <br />
 
-    <body>
-        <header>
-            <div>LOGO</div>
-            <img src="https://media0.giphy.com/media/Axqr1hNEmGJiw/giphy.gif?cid=3640f6095c5e9c0c7877792f49702e77" alt="slika" height=100px width=300px >
-            <nav>
-                <ul>
-                    <li><a href="#">Početna</a></li>
-                    <li><a href="#">Galerija</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_intro.asp">HTML Tutorial</a></li>
-                    <li><a href="https://www.w3schools.com/css/default.asp">CSS Tutorial</a></li>
-                    <li><a href="https://www.w3schools.com/js/default.asp">JavaScript Tutorial</a></li>
-                    <br>
-                    <button>Click me</button>
-                   
-            
-                   
-                </ul>
-            </nav>
-        
-        </header>
-        <main>
-            <section>
-                <h1>h1</h1>
-                <h2>h2</h2>
-                <h3>h3</h3>
-                <h4>h4</h4>
-                <h5>h5</h5>
-                <h6>h6</h6>
-            </section>
-            <section>
-                <p>prvi paragraf</p>
-                <p>ovo je drugi paragraf</p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eaque libero ab, aliquam molestiae et eius aut cumque nesciunt provident quae quisquam! Pariatur nesciunt, dicta obcaecati accusamus deserunt sunt unde?
-                </p>
-            </section>
-            <section>
-                <ol>
-                    <li>Jedan</li>
-                    <li>Dva</li>
-                    <li>Tri</li>
-                  
-                </ol>
-            </section>
-            <img src="https://static.igre123.net/slike/318893-206368/slika-206368.jpg" alt="slika" height=200px>
-            <img src="https://media1.giphy.com/media/YGOqigNcjRG8w/giphy.gif?cid=3640f6095c5e922e656936437783b332" alt="gif" height=200px>
-            <img src="https://media3.giphy.com/media/VekcnHOwOI5So/giphy.gif?cid=3640f6095c5e98eb4d71544b4950b74c" alt="gif" height=200px>
-    
-            
-        </main>
-        <footer><center>Copyright @Ivan Dumančić 2019.</center></footer>
-    </body>
+        <label for="number">Telefon:</label>
+        <input
+          type="number"
+          id="number"
+          name="name"
+          required
+          minlength="1"
+          maxlength="30"
+          size="20"
+        />
+        <br />
+        <label for="radio">Gender:</label>
+        <input type="radio" id="Male" name="name" value="Male" checked />
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="name" value="Female" checked />
+        <label for="Female">Female</label>
+        <br>
+        <label for="checkbox">Knowledge:</label>
+        <input type="checkbox" id="HTML" name="HTML"
+        checked>
+        <label for="HTML">HTML</label>
 
+        <input type="checkbox" id="CSS" name="CSS"
+        checked>
+        <label for="CSS">CSS</label>
 
+        <input type="checkbox" id="JavaScript" name="JavaScript"
+        checked>
+        <label for="JavaScript">JavaScript</label>
+        <br>
 
+        <input type="submit" value="Send">
+        <br>
+        <br>
+     
+        <label for="site-search">Search the site:</label>
+        <input type="search" id="site-search" name="q" placeholder="Search"
+               aria-label="Search through site content">
+               
+        <button>Search</button>
+
+      </section>
+    </main>
+    <footer><center>Copyright @Ivan Dumančić 2019.</center></footer>
+  </body>
 </html>
